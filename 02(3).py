@@ -47,7 +47,7 @@ date7 = input("Введіть дату: ")
 
 total_cost7 = quantity7 * price7
 
-cost = price * quantity + price2 * quantity2 + price3 * quantity3 + price4 * quantity4 + price5 * quantity5 + price6 * quantity6 + price7 * quantity7
+cost = (price * quantity) + (price2 * quantity2) + (price3 * quantity3) + (price4 * quantity4) + (price5 * quantity5) + (price6 * quantity6) + (price7 * quantity7)
 
 print(f"Продукт: {product_name}, Кількість: {quantity}, Вартість: {total_cost}, Date: {date}")
 
